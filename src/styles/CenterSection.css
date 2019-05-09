@@ -1,0 +1,264 @@
+input[type=submit]:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.InnerContainer {
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.Title {
+	margin: 30px 0;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.Inputs > label {
+	font-size: 13px;
+	color: #aaa;
+}
+
+.Inputs {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	margin-bottom: 25px;
+}
+
+.input {
+	border: none;
+	padding: 13px;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	border-bottom: 2px solid #e2e2e2;
+	cursor: pointer;
+}
+
+.input:hover {
+	border-bottom: 2px solid #c0c0c0;
+	font-size: 18px;
+}
+
+.input:focus {
+	outline: none;
+	font-size: 18px;
+	border-bottom: 2px solid #333;
+}
+
+.InputsAnswer {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.inputAnswer {
+	border: none;
+	padding: 13px;
+	font-size: 20px;
+	border-bottom: 2px solid #bbb;
+	cursor: default;
+}
+
+.inputAnswer:focus {
+	outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.btn {
+	background-color: #333;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #3f3f3f;
+	color: #fff;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #555;
+	border: 1px solid #2e2e2e;
+}
+
+.btn-clear {
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+	color: #333;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-clear:hover {
+	background-color: #eee;
+	border: 1px solid #3f3f3f;
+}
+
+.btn:active {
+	background-color: #333;
+	border: 1px solid #3f3f3f;
+	transform: translateY(2px);
+}
+
+.btn-clear:active {
+	background-color: #fff;
+	border: 1px solid #333;
+	transform: translateY(2px);
+}
+
+
+@media only screen and (min-width: 1000px) {
+input[type=submit]:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.InnerContainer {
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.Title {
+	margin: 30px 0;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.Inputs > label {
+	font-size: 13px;
+	color: #aaa;
+}
+
+.Inputs {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	margin-bottom: 25px;
+}
+
+.input {
+	border: none;
+	padding: 13px;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	border-bottom: 2px solid #e2e2e2;
+	cursor: pointer;
+}
+
+.input:hover {
+	border-bottom: 2px solid #c0c0c0;
+	font-size: 18px;
+}
+
+.input:focus {
+	outline: none;
+	font-size: 18px;
+	border-bottom: 2px solid #333;
+}
+
+.InputsAnswer {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.inputAnswer {
+	border: none;
+	padding: 18px;
+	font-size: 20px;
+	border-bottom: 2px solid #bbb;
+	cursor: default;
+}
+
+.inputAnswer:focus {
+	outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.btn {
+	background-color: #333;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #3f3f3f;
+	color: #fff;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #555;
+	border: 1px solid #2e2e2e;
+}
+
+.btn-clear {
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+	color: #333;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn-clear:hover {
+	background-color: #eee;
+	border: 1px solid #3f3f3f;
+}
+
+.btn:active {
+	background-color: #333;
+	border: 1px solid #3f3f3f;
+	transform: translateY(2px);
+}
+
+.btn-clear:active {
+	background-color: #fff;
+	border: 1px solid #333;
+	transform: translateY(2px);
+}
+
+
+}
+

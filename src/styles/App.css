@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Container {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+.infoContainer {
+    display: none;
+  }
+
+.RightSideSection {
+    display: none;
+  }
+
+.DropDown {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0 1% 0 2%;
+  }
+
+.options {
+    width: 100%;
+  }
+
+.options > select {
+    padding: 10px;
+    width: 100%;
+    font-size: 19px;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    cursor: pointer;
+    -webkit-transition-duration: 0.1s;
+  }
+
+.options > select:focus {
+  outline: none;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .Container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .RightSideSection {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .CenterSection {
+    flex-basis: 60%;
+    background-color: #fefefe;
+    height: 400px;
+  }
+
+  .DropDown {
+    flex-basis: 17%;
+  }
+
+  .options {
+    width: 100%;
+  }
+
+  .options > select {
+    padding: 10px;
+    width: 100%;
+    font-size: 19px;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    cursor: pointer;
+    -webkit-transition-duration: 0.1s;
+  }
+
+  .options > select:focus {
+    outline: none;
+    font-size: 23px;
+    border-bottom: 2px solid #333;
+  }
+
+  .options > select:hover {
+    border-bottom: 2px solid #888;
+  }
+
+  .options > select > option {
+    font-size: 19px;
+  }
+
+  .options > select > option:hover {
+    background-color: 
+  }
+
+  .infoContainer {
+    width: 97%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: 15px;
+    border: 2px solid #f2f2f2;
+    border-radius: 12px;
+    padding: 2%;
+  }
+
+  .title {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Helvetica;
+    margin-bottom: 5px;
+  }
+
+  .info {
+    line-height: 19px;
+    font-size: 15px;
+  }
+}
